@@ -1,0 +1,138 @@
+:root{
+  --indigo: indigo;
+  --slgray:slategray;
+  --teal:teal;
+  --black:black;
+  --spgreen:springgreen;
+  --gold:gold;
+  --azure:azure;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body{
+    background-color: var(--slgray);
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:var(--indigo);
+    color:var(--azure);
+  }
+
+  nav h1 {
+    font-size: 200%;
+    font-weight: bold;
+    justify-content: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--teal);
+    color:var(--black)
+  }
+
+ nav ul {
+  display: flex;
+  justify-content: right;
+ }
+
+ nav ul li {
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+ }
+
+nav ul li:hover {
+  font-weight: bold;
+  background-color: var(--teal);
+}
+
+.banner {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("https://code-cache.com/en/wp-content/uploads/2021/09/code9.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  font-size: 150%;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  color:var(--gold)
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: bold;
+  color: var(--teal);
+}
+
+aside {
+  float:left;
+  text-align: left;
+  border-right: 5px solid var(--spgreen);
+}
+
+article {
+  padding: 10px;
+  margin:10px;
+  text-align: center;
+}
+
+.pro-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: auto;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.proj-card {
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  padding: 10px;
+  flex:30px;
+  margin: 20px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#code-ref1 {
+  width: 100%;
+  background-image: url("./images/Web\ capture_19-9-2022_19710_.jpeg");
+  height: 300px;
+  background-size: cover;
+}
+
+main section div a:hover {
+  background-color: var(--spgreen);
+}
+
+footer ul li:hover {
+  color: var(--azure);
+  background-color: var(--teal);
+}
