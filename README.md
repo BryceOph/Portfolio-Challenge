@@ -15,7 +15,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-[page-screenshot](./assets/images/Web%20capture_19-9-2022_204828_.jpeg)
+[page-screenshot](./assets/images/Web%20capture_19-9-2022_2103_.jpeg)
 
 
 
