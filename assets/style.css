@@ -128,6 +128,13 @@ article {
   background-size: cover;
 }
 
+#worn {
+  width: 100%;
+  background-image: url("./images/Web\ capture_20-9-2022_1582_.jpeg");
+  height: 300px;
+  background-size: cover;
+}
+
 main section div a:hover {
   background-color: var(--spgreen);
 }
