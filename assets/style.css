@@ -98,7 +98,7 @@ article {
 .pro-links {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   box-sizing: border-box;
   width: auto;
   justify-content: space-evenly;
