@@ -17,7 +17,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [page-screenshot](./assets/images/Web%20capture_19-9-2022_2103_.jpeg)
 
-
+[github-deployed-page-link](https://bryceoph.github.io/Portfolio-Challenge/)
 
 
 
